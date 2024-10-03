@@ -64,6 +64,7 @@ module.exports = {
       body: JSON.stringify({
         url: siteURL,
         repoUrl: repoURL,
+        score: 9007199254740992,
       }),
     });
   },

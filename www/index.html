@@ -1,53 +1,44 @@
 <html lang="en">
-  <!DOCTYPE html>
+<!DOCTYPE html>
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netlify Compose Code Challenge</title>
-    <link
-      rel="preload"
-      href="https://example-styles.netlify.app/fonts/PacaembuVar-latin.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="https://example-styles.netlify.app/fonts/MulishVar-latin.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link rel="stylesheet" href="https://example-styles.netlify.app/styles.css" />
-    <link rel="stylesheet" href="/styles.css" />
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netlify Compose Code Challenge - Andrew Kepson</title>
+  <link rel="preload" href="https://example-styles.netlify.app/fonts/PacaembuVar-latin.woff2" as="font"
+    type="font/woff2" crossorigin />
+  <link rel="preload" href="https://example-styles.netlify.app/fonts/MulishVar-latin.woff2" as="font" type="font/woff2"
+    crossorigin />
+  <link rel="stylesheet" href="https://example-styles.netlify.app/styles.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <netlify-edge-include href="https://compose-challenge.netlify.app/partials/add-image-cdn"></netlify-edge-include>
+  <!-- TODO: Add your name to enter the prize draw -->
+  <meta name="author" content="Andrew Kepson">
 
-    <!-- TODO: Add your name to enter the prize draw -->
-    <!-- <meta name="author" content="YOUR NAME"> -->
-
-    <!-- TODO: Add your email and we'll show an avatar in the leaderboard. (And
+  <!-- TODO: Add your email and we'll show an avatar in the leaderboard. (And
     you'll get more points!) -->
-    <!-- <meta name="email" content="YOUR EMAIL ADDRESS"> -->
-  </head>
+  <meta name="email" content="andrew@andrewkepson.com">
+</head>
 
-  <body>
-    <partial name="header"></partial>
+<body>
+  <partial name="header"></partial>
 
-    <main>
-      <partial name="step-1"></partial>
-      <partial name="step-2"></partial>
+  <main>
+    <partial name="step-1"></partial>
+    <partial name="step-2"></partial>
 
-      <!-- This looks like a good place for an edge include. -->
+    <!-- This looks like a good place for an edge include. -->
 
-      <section>
-        <!-- Maybe an image or two will go here...? -->
-      </section>
+    <section>
+      <!-- Maybe an image or two will go here...? -->
+    </section>
 
-      <!-- This looks like another good place for an edge include! -->
-    </main>
+    <!-- This looks like another good place for an edge include! -->
+  </main>
 
-    <!-- TODO: Extra credit: Why not add a global branded footer to the site? -->
-    <!-- <netlify-edge-include href="https://compose-challenge.netlify.app/partials/footer"></netlify-edge-include> -->
-  </body>
+  <!-- TODO: Extra credit: Why not add a global branded footer to the site? -->
+  <!-- <netlify-edge-include href="https://compose-challenge.netlify.app/partials/footer"></netlify-edge-include> -->
+</body>
+
 </html>
